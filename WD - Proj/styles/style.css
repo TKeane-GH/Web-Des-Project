@@ -1,0 +1,90 @@
+nav{
+    background-color: rgb(255, 255, 99);
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #262626;
+    display: inline;
+    padding: 15px;
+    margin: 30px;
+    border: 2px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    
+    color: rgb(255, 255, 99);
+}
+
+
+header{
+    background-color: rgb(17, 0, 63);
+    padding: 10px;
+}
+
+.homeheader{
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(17, 0, 63);
+    color: rgb(255, 255, 99);
+    text-shadow: #b2b2b2 ;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/167517/pexels-photo-167517.jpeg?cs=srgb&dl=people-lights-crowd-167517.jpg&fm=jpg);
+
+}
+
+.product{
+    margin: auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.colour{
+    color: white;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 40%;
+    border: 7px solid white;
+}
+
+.text{
+    color: white;
+}
+
+h1, h2{
+    color: rgba(255,255,99);
+}
+
+
+
+article{
+    
+    text-decoration: underline rgb(130, 188, 255);
+}

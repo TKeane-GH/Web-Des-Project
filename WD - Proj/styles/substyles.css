@@ -1,0 +1,104 @@
+nav{
+    background-color: rgb(255, 255, 99);
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #262626;
+    display: inline;
+    padding: 15px;
+    margin: 30px;
+    border: 2px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    
+    color: rgb(255, 255, 99);
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/167517/pexels-photo-167517.jpeg?cs=srgb&dl=people-lights-crowd-167517.jpg&fm=jpg);
+
+}
+
+
+header{
+    background-color: rgb(17, 0, 63);
+    padding: 10px;
+}
+
+.homeheader{
+    text-align: right;
+}
+
+h1, h2{
+    color: rgba(255, 255, 99);
+}
+
+h2{
+    text-decoration: underline rgb(130, 188, 255) ;
+}
+
+.rockpics{
+    margin-right: 12px;
+
+    height: 605px;
+    width: 605px;
+}
+
+.rappics{
+    margin-right: 12px;
+
+    height: 605px;
+    width: 605px;
+}
+
+.elepics{
+    margin-right: 12px;
+
+    height: 605px;
+    width: 605px;
+}
+
+.poppics{
+    margin-right: 12px;
+
+    height: 605px;
+    width: 605px;
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 218, 32);
+}
+
+.lambs{
+    height: auto;
+    width: 300px;
+    border: dotted 6px gray;
+    display: block;
+
+}
+
+.calf{
+    margin-left: 20px;
+    border: dotted 6px black;
+}
